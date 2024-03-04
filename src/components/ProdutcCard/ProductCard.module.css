@@ -1,0 +1,98 @@
+.link {
+    text-decoration: none;
+}
+
+.card {
+    width: 320px;
+
+    background-color: var(--white-color);
+    border-radius: 19px;
+    box-shadow: 18px 18px 36px 0px rgba(211, 209, 216, 0.25);
+}
+
+.head {
+    position: relative;
+
+    min-height: 165px;
+
+    border-radius: 19px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: var(--text-secondary-color);
+}
+
+.price {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+    padding: 3px 10px;
+
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: #111719;
+
+    background-color: var(--white-color);
+    border-radius: 20px;
+}
+
+.currency {
+    color: var(--primary-color);
+}
+
+.rating {
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+
+    padding: 3px 8px;
+
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: #111719;
+
+    background-color: var(--white-color);
+    border-radius: 20px;
+    box-shadow: 0px 6px 24px 0px rgba(254, 114, 76, 0.2);
+}
+
+.add {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 34px;
+    height: 34px;
+
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: background linear 0.25s;
+}
+
+.add:focus-within,
+.add:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.footer {
+    padding: 12px;
+}

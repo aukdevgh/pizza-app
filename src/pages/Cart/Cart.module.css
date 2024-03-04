@@ -1,0 +1,51 @@
+.headling {
+    margin-bottom: 40px;
+}
+
+.field {
+    padding: 17px 0;
+
+    max-width: 512px;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.hr {
+    margin: 0;
+
+    max-width: 512px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 19px;
+}
+
+.currency {
+    color: #9796a1;
+}
+
+.count {
+    font-size: 14px;
+    font-weight: 300;
+    color: #bebebe;
+}
+
+.checkout {
+    margin-top: 70px;
+
+    max-width: 512px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

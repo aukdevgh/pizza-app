@@ -1,0 +1,95 @@
+.layout {
+    min-height: 100vh;
+
+    display: flex;
+}
+
+.sidebar {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-right: 1px solid var(--separator-color);
+}
+
+.user {
+    margin-bottom: 46px;
+}
+
+.avatar {
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 8px 40px rgba(255, 197, 41, 0.25));
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    font-style: normal;
+    color: var(--text-color);
+}
+
+.email {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+    color: #9ea1b1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.link:focus-within,
+.link:hover {
+    color: var(--primary-color);
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.exit {
+    margin-top: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.content {
+    padding: 40px 60px;
+
+    width: 100%;
+}
+
+.cart-count {
+    padding: 3px 3px;
+
+    height: 20px;
+    min-width: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+    color: var(--white-color);
+
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
